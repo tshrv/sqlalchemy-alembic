@@ -1,7 +1,14 @@
-# sqlalchemy-alembic
+# sqlalchemy-alembic: sqal
 This project is a simple demonstration of SQLAlchemy (for ORM) and Alembic (for database migrations)
 
-# Overview
+## SQLAlchemy
+1. Establish connection
+2. Transactions and DBAPI
+3. Database Metadata
+
+---
+
+## Overview
 1. **SQL Database** has a `users` table.
 2. **SQLAlchemy** configuration for `UserModel` that connects to the `users` table in the database.
 3. **Alembic** configuration to carry out database migrations
